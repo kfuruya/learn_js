@@ -10,3 +10,9 @@ for (var lineNum = 0; lineNum < 7; lineNum ++) {
     }
     console.log(output);
 }
+
+
+// actual elegant solution
+for (var line = "#"; line.length < 7; line += "#") {
+    console.log(line)
+}
